@@ -1,0 +1,5 @@
+Droplet Name: martyryan
+IP Address: 162.243.47.222
+Username: root
+Password: 0c060bcd5a93dee9
+npass:shitcan101
