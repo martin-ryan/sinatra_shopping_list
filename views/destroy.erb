@@ -1,0 +1,11 @@
+<h3>Destroy Item</h3>
+
+<p>
+  Are you sure you want to erase Item # <%= @item.id %>?
+  You only want to check off <em><%= item.name %></em> if it is complete!
+</p>
+
+<form action="/destroy" method="post">
+  <input type="hidden" name="id" value="<%= @item.id %>">
+  <input type="submit" value="Destroy Item">
+</form>

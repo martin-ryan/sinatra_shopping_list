@@ -6,13 +6,13 @@ class ItemController < ApplicationController
 
 
   get "/display" do
-    @item = Item.all
+    @items = Item.all
     erb :item_list
   end
 
 
   get "/create" do
-    erb :item_create
+    erb :create
   end
 
   post "/create/:id" do
